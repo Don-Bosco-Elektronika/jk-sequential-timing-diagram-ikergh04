@@ -16,7 +16,7 @@
 **Ariketa (EU): (ZENBAKIA IDATZI)**  
 | Izena                     | Txip Zenbakia | Sinboloa         | Funtzionamendu Describapena                                                                |
 |---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| JK | 74595             | ? | 8 bit desplazamendu-erregistroa latch-ekin. Irteerak gordeta mantentzen ditu. |  
+| JK | 7476             | ? | 2 JK flip-flop dituen zirkuitua. 1 bit memorizatu eta toggle egiteko (SET/RESET). |  
 
 ---
 
