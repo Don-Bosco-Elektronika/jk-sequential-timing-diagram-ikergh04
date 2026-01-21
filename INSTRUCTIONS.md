@@ -1,4 +1,4 @@
-# 🛠️ Cronograma de Circuitos Secuenciales / Zirkuitu Sekuentzialen Kronograma / Sequential Circuit Timing Diagram
+# 🛠️ Zirkuitu Sekuentzialen Kronograma
 
 | **Alumnos** | **Curso** | **Módulo** |
 |-------------|-----------|------------|
@@ -6,22 +6,17 @@
 
 ---
 
-## 📌 Ejercicio / Ariketa / Exercice
-
-**Ejercicio (ES): (ESCRIBE EL NÚMERO)**  
-| Nombre                     | Número de Chip | Símbolo         | Descripción del Funcionamiento                                                                 |
-|---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ?             | ? | ? | 
+## 📌 Ariketa
 
 **Ariketa (EU): (ZENBAKIA IDATZI)**  
 | Izena                     | Txip Zenbakia | Sinboloa         | Funtzionamendu Describapena                                                                |
 |---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ?             | ? | ? |  
+| JK | 4027             | ? |  2 JK flip-flop CMOS. 1 bit gordetzeko eta SET/RESET egiteko. |  
 
-**Exercice (EN): (WRITE THE NUMBER)**  
-| Name                     | Chip number | Symbol         | Description of Operation                                                               |
+**Ariketa (EU): (ZENBAKIA IDATZI)**  
+| Izena                     | Txip Zenbakia | Sinboloa         | Funtzionamendu Describapena                                                                |
 |---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ? | ? | ? |  
+| JK | 7476             | ? | 2 JK flip-flop dituen zirkuitua. 1 bit memorizatu eta toggle egiteko (SET/RESET). |  
 
 ---
 
@@ -36,36 +31,59 @@
 
 ---
 
-## 🔲 Circuitos a Simular / Simulatzeko Zirkuituak / Circuits to Simulate
+## 🔲 Simulatzeko Zirkuituak
+<img width="585" height="379" alt="Captura de pantalla 2026-01-21 102324" src="https://github.com/user-attachments/assets/7af980d7-ec33-4e66-ba77-e4074fcd80bc" />
 
-*(Añade aquí la captura de proteus)*
+<img width="428" height="375" alt="Captura de pantalla 2026-01-21 132022" src="https://github.com/user-attachments/assets/dc2165b3-47d4-487c-a9fc-9da496678ff5" />
+
+
+
 
 ---
 
-## 🔲 Resultado del Cronograma / Kronogramaren Emaitza / Timing Diagram Result
-Circuito A
-
-*(Añade aquí la captura del WaveDrom)*
-
-Circuito B
-
-*(Añade aquí la captura del WaveDrom)*
-
-... AÑADE LO MÁS CIRCUITOS
+## 🔲 Kronogramaren Emaitza
+<img width="602" height="160" alt="Captura de pantalla 2026-01-21 131448" src="https://github.com/user-attachments/assets/72cc9811-000b-4033-989f-3c131aada99c" />
+<img width="641" height="168" alt="Captura de pantalla 2026-01-21 131509" src="https://github.com/user-attachments/assets/66d7a9ee-8156-4674-8d79-28312d401d46" />
 
 ---
 
 
-## 🔲 Código del Cronograma / Kronogramaren Kodea / Timing Diagram Code
-Circuito A
+## 🔲 Kronogramaren Kodea
+Ejercicio 2: JK flanco ascendente
 
-*(Añade aquí el código del WaveDrom)*
+{signal: [
 
-Circuito B
+  {name: 'clk', wave: 'P........', period: 2},
+  
+  {name: 'J',   wave: '0101..0101.010.1.0'},
+  
+  {name: 'K',   wave: '1..0..101...01.01.'},
+  
+  {},
+  
+  {name: 'Q',   wave: '0.1.0.10.1...0.1.0'},
+  
+  {name: '-Q',  wave: '1.0.1.01.0...1.0.1'}
 
-*(Añade aquí el código del WaveDrom)*
+]}
 
-... AÑADE LO MÁS CIRCUITOS
+Ejercicio 2: JK flanco descendente
+
+{signal: [
+
+  {name: 'clk', period: 3, wave: 'N.....'},
+  
+  {name: 'J', wave: '0101..0101.0..1.0'},
+  
+  {name: 'K', wave: '1...0..1.0..1..01'},
+  
+  {},
+  
+  {name: 'Q', wave: '0..1..0..1..1..0..'},
+  
+  {name: '-Q', wave: '1..0..1..0..0..1..'}
+
+]}
 
 ---
 
@@ -74,23 +92,11 @@ Circuito B
 
 ➡️ **Instrucciones:**  
 
-- **ES:** Sube los siguientes archivos. Todos los archivos subidos han de tener tu nombre.  
-  - Una foto del símbolo.  
-  - El archivo en Proteus y una captura de imagen de cada circuito en Proteus.  
-  - Capturas de cada resultado del Wavedrom (solo el gráfico).  
-  - **ATENCIÓN:** El código del cronograma TIENE que ser código, no una imagen.
-
 - **EU:** Igo hurrengo fitxategiak. Igotako fitxategi guztiek zure izena eduki behar dute.  
   - Sinboloaren argazki bat.  
   - Proteus fitxategia eta zirkuitu bakoitzaren irudia (captura) Proteusen.  
   - Wavedrom bakoitzaren emaitzaren kaptura (grafikoa bakarrik).  
   - **KONTUZ:** Kronogramaren kodea kodea izan behar da, ez irudi bat.
-
-- **EN:** Upload the following files. All uploaded files must include your name.  
-  - A photo of the symbol.  
-  - The Proteus file and an image capture of each circuit in Proteus.  
-  - Uno capture of each Wavedrom result (graph only).  
-  - **ATTENTION:** The schedule code MUST be real code, not an image.
 
 
 
