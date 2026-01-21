@@ -11,12 +11,12 @@
 **Ariketa (EU): (ZENBAKIA IDATZI)**  
 | Izena                     | Txip Zenbakia | Sinboloa         | Funtzionamendu Describapena                                                                |
 |---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| JK | 4027             | ? | ? |  
+| JK | 4027             | ? |  2 JK flip-flop CMOS. 1 bit gordetzeko eta SET/RESET egiteko. |  
 
 **Ariketa (EU): (ZENBAKIA IDATZI)**  
 | Izena                     | Txip Zenbakia | Sinboloa         | Funtzionamendu Describapena                                                                |
 |---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| JK | 74595             | ? | ? |  
+| JK | 74595             | ? | 8 bit desplazamendu-erregistroa latch-ekin. Irteerak gordeta mantentzen ditu. |  
 
 ---
 
